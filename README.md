@@ -28,8 +28,9 @@ This thesis formulates joint recommendation-and-caching as a single Markov Decis
 
 ## Running the notebook
 
-The notebook is the submitted code with outputs kept; the only edits since submission
-are removed dead cells and data paths made relative. The MovieLens section expects
+The notebook is the submitted code; the only edits since submission are removed dead
+cells, cleared outputs and data paths made relative. The figures and numbers are in the
+thesis PDF. The MovieLens section expects
 `ratings_small.csv` (from the [MovieLens](https://grouplens.org/datasets/movielens/)
 "small" release) next to the notebook and builds the similarity matrix and popularity vector from it
 (or loads `u_file.npy` / `popularity_file.npy` if present). The synthetic-catalogue
